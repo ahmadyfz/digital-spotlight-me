@@ -13,13 +13,16 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-float">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            John Doe
+            Ahmad Romdhoni Yusfarizi
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Full Stack Developer & UI/UX Designer
+            Quality Assurance Engineer & Inventory Management Specialist
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Passionate about creating beautiful, functional digital experiences that make a difference
+            Mahasiswa aktif semester 3 Program Studi Manajemen Logistik Industri Elektronika di Politeknik APP Jakarta dengan minat kuat pada 
+            bidang quality control dan analisis data. Memiliki pengalaman sebagai asisten dosen serta terbiasa menggunakan SAP Business untuk 
+            pengelolaan transaksi logistik.<br/> Terampil dalam mengolah dan menyajikan data menggunakan Microsoft Excel dan Power BI. Memiliki komitmen tinggi dalam pengembangan keterampilan teknis dan siap berkontribusi 
+            secara positif dalam peningkatan efisiensi sistem pelaporan dan pengambilan keputusan berbasis data.
           </p>
         </div>
         
@@ -29,7 +32,7 @@ const Hero = () => {
             className="bg-gradient-primary hover:scale-105 transition-all shadow-elegant"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Get In Touch
+            Mulai dari sini
           </Button>
           <Button 
             variant="outline" 
@@ -37,7 +40,7 @@ const Hero = () => {
             className="border-primary/50 hover:bg-primary/10 transition-all"
             onClick={() => document.getElementById('achievements')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            View Achievements
+            Penghargaan
           </Button>
         </div>
         

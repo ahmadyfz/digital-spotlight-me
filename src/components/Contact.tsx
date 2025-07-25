@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/johndoe",
+      url: "https://www.linkedin.com/in/ahmad-romdhoni-yusfarizi-999xyz",
       color: "hover:text-blue-500"
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       label: "WhatsApp",
-      url: "https://wa.me/6281234567890",
+      url: "https://wa.me/6285838891849",
       color: "hover:text-green-500"
     },
     {
       icon: <Instagram className="w-6 h-6" />,
       label: "Instagram",
-      url: "https://instagram.com/johndoe",
+      url: "https://instagram.com/ahmadyfz",
       color: "hover:text-pink-500"
     }
   ];
@@ -28,12 +28,12 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5 text-primary" />,
       label: "Email",
-      value: "john.doe@example.com"
+      value: "amdromyf@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5 text-primary" />,
       label: "Phone",
-      value: "+62 812-3456-7890"
+      value: "+62 85838891849"
     },
     {
       icon: <MapPin className="w-5 h-5 text-primary" />,
@@ -103,7 +103,7 @@ const Contact = () => {
                 <Button 
                   className="w-full bg-gradient-primary hover:scale-105 transition-all shadow-elegant"
                   size="lg"
-                  onClick={() => window.open('mailto:john.doe@example.com', '_blank')}
+                  onClick={() => window.open('mailto:amdromyf@gmail.com', '_blank')}
                 >
                   <Mail className="w-5 h-5 mr-2" />
                   Kirim Email
@@ -113,7 +113,7 @@ const Contact = () => {
                   variant="outline"
                   className="w-full border-green-500/50 hover:bg-green-500/10 hover:text-green-400 transition-all"
                   size="lg"
-                  onClick={() => window.open('https://wa.me/6281234567890', '_blank')}
+                  onClick={() => window.open('https://wa.me/6285838891849', '_blank')}
                 >
                   <MessageCircle className="w-5 h-5 mr-2" />
                   Chat di WhatsApp
@@ -123,7 +123,7 @@ const Contact = () => {
                   variant="outline"
                   className="w-full border-blue-500/50 hover:bg-blue-500/10 hover:text-blue-400 transition-all"
                   size="lg"
-                  onClick={() => window.open('https://linkedin.com/in/johndoe', '_blank')}
+                  onClick={() => window.open('https://linkedin.com/in/ahmad-romdhoni-yusfarizi-999xyz', '_blank')}
                 >
                   <Linkedin className="w-5 h-5 mr-2" />
                   Connect di LinkedIn

@@ -25,7 +25,7 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            About Me
+            Tentang saya
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             I'm a passionate developer with 5+ years of experience creating digital solutions 

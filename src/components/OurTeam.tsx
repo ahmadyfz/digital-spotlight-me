@@ -11,25 +11,24 @@ const OurTeam = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "John Doe",
-      position: "Lead Developer",
+      name: "Leonardo Steven Girsang",
+      position: "Supply Chain Management Enthusiast",
       image: teamJohn,
-      description: "Full-stack developer dengan pengalaman 8+ tahun. Spesialis dalam React, Node.js, dan cloud architecture.",
-      skills: ["React", "Node.js", "TypeScript", "AWS"],
-      email: "john@company.com",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe"
+      description: "Mahasiswa aktif semester 5 Program Studi Manajemen Logistik Industri Elektronika di Politeknik APP Jakarta dengan fokus pada supply chain management. Memiliki pengalaman dalam pengelolaan inventaris dan analisis data logistik. Terampil dalam menggunakan SAP Business untuk transaksi logistik dan Microsoft Excel untuk pengolahan data.",
+      skills: ["Procurement", "Inventory Management", "Warehouse & Distribution", "Production Planning"],
+      email: "leongirsang31@gmail.com",
+      linkedin: "https://www.linkedin.com/in/leonardo-steven-girsang-1a62b2364/",
     },
     {
       id: 2,
-      name: "Sarah Wilson",
-      position: "UI/UX Designer",
+      name: "Yuntamal Irtiqo Ngulya",
+      position: "Accounting & Suppply Chain Specialist",
       image: teamSarah,
-      description: "Creative designer dengan fokus pada user experience. Berpengalaman dalam design thinking dan product strategy.",
-      skills: ["Figma", "Design Systems", "Prototyping", "User Research"],
-      email: "sarah@company.com",
-      linkedin: "https://linkedin.com/in/sarahwilson",
-      github: "https://github.com/sarahwilson"
+      description: "Akuntan dengan pengalaman dalam pengelolaan keuangan dan analisis data. Memiliki keterampilan dalam sistem akuntansi dan pelaporan keuangan.",
+      skills: ["Procurement", "Inventory Management", "Accounting Report skill", "Analitical Hierarcy Process"],
+      email: "yuntamaltiqo@gmail.com",
+      linkedin: "https://www.linkedin.com/in/yuntamal-irtiqo-ngulya-88192a22b/",
+      github: "https://github.com/UserKit0707"
     },
     {
       id: 3,
