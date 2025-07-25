@@ -13,6 +13,7 @@ const Navbar = () => {
   const navItems = [
     { label: "Home", id: "home" },
     { label: "About", id: "about" },
+    { label: "Our Team", id: "team" },
     { label: "Achievements", id: "achievements" },
     { label: "Contact", id: "contact" }
   ];
